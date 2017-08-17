@@ -1,0 +1,26 @@
+{
+    "license": "MIT",
+    "authors": [{
+        "name": "Klever Ramon",
+        "email": "klever@kircmedia.com",
+        "homepage": "http://www.kircmedia.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "support@kircmedia.com"
+    },
+    "autoload": {
+        "classmap": [
+            "app/commands",
+            "app/controllers",
+            "app/models",
+            "app/config"
+        ]
+    },
+    "require": {
+      "katzgrau/klogger": "dev-master",
+      "bramus/router": "^1.1",
+      "vlucas/spot2": "~2.0",
+      "php-curl-class/php-curl-class": "^7.2"
+    }
+}

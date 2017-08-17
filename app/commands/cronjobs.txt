@@ -1,0 +1,1 @@
+01 * * * * /home/cabox/workspace/portabilidad/app/commands/leechAscp.sh
