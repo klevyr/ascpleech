@@ -12,6 +12,6 @@ class Celular extends \Spot\Mapper
     {
         return $this->all()
             ->where(['lastsync' => null])
-            ->limit(3);
+            ->limit(10);
     }
 }

@@ -15,6 +15,7 @@ class Celular extends \Spot\Entity
     {
         return [
             'numcel'           => [ 'type' => 'string', 'primary' => true, 'autoincrement' => true ],
+            'carr'             => [ 'type' => 'string' ],
             'carrier'          => [ 'type' => 'string' ],
             'response'         => [ 'type' => 'string' ],
             'lastsync'         => [ 'type' => 'datetime', 'value' => new \DateTime() ],
