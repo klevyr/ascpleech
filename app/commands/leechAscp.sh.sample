@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O - -q -t 1 "http://mydomain.com/portabilidad/index.php/leech/" > /dev/null 2>&1
+sleep 1
+wget -O - -q -t 1 "http://mydomain-1.com/pub/portabilidad/index.php/leech/" > /dev/null 2>&1
